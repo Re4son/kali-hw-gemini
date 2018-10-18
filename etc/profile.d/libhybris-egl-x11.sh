@@ -1,1 +1,0 @@
-export EGL_PLATFORM=x11
