@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ 
+
+override_dh_installgsettings:
+	# Use 20 as priority as recommended by dh_installgsettings(1)
+	# since we're a Debian derivative
+	dh_installgsettings --priority=20

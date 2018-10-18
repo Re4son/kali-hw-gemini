@@ -1,0 +1,38 @@
+#!/bin/sh
+# preinst script for kali-gemini-hw
+#
+# see: dh_installdeb(1)
+
+set -e
+
+# summary of how this script can be called:
+#        * <new-preinst> `install'
+#        * <new-preinst> `install' <old-version>
+#        * <new-preinst> `upgrade' <old-version>
+#        * <old-preinst> `abort-upgrade' <new-version>
+# for details, see http://www.debian.org/doc/debian-policy/ or
+# the debian-policy package
+
+case "$1" in
+    install)
+	for file in #<file 1> \
+                    #<file 2> \
+                    #<file 3> \
+                    #<file 4>; do
+            if ! dpkg-divert --list | grep -F "${file}"; then
+                dpkg-divert --package kali-gemini-hw --add --divert $file.original --rename $file
+            fi
+        done
+    ;;
+
+    upgrade|abort-upgrade)
+    ;;
+
+    *)
+        echo "preinst called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+#DEBHELPER#
+
+exit 0
