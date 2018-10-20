@@ -1,3 +1,4 @@
 etc/X11/xorg.conf etc/X11/
 etc/sddm.conf etc/
+etc/adduser.conf etc/
 

@@ -16,8 +16,8 @@ set -e
 case "$1" in
     install)
 	for file in etc/X11/xorg.conf \
-                    etc/sddm.conf; do
-                    #<file 3> \
+                    etc/sddm.conf \
+                    etc/adduser.conf; do
                     #<file 4>; do
             if ! dpkg-divert --list | grep -F "${file}"; then
                 dpkg-divert --package kali-gemini-hw --add --divert $file.original --rename $file

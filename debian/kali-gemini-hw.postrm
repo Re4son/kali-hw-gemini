@@ -22,8 +22,8 @@ set -e
 case "$1" in
 	    remove)
 	        for file in etc/X11/xorg.conf \
-                            etc/sddm.conf; do
-                            #<file 3> \
+                            etc/sddm.conf \
+                            etc/adduser.conf; do
                             #<file 4>; do
                     rm -f $file		
                     if dpkg-divert --list | grep -F "${file}"; then
