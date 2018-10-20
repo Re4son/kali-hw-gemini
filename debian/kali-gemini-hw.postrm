@@ -26,7 +26,9 @@ case "$1" in
                             etc/adduser.conf \
 			    etc/pulse/arm_droid_card_custom.pa \
 			    etc/pulse/default.pa \
-			    etc/skel/.config/kwinrc; do
+			    etc/skel/.config/kwinrc \
+			    etc/skel/.gtkrc-2.0 \
+			    etc/skel/.config/gtk-3.0/settings.ini; do
                             #<file 4>; do
                     rm -f $file		
                     if dpkg-divert --list | grep -F "${file}"; then
