@@ -15,8 +15,8 @@ set -e
 
 case "$1" in
     install)
-	for file in etc/X11/xorg.conf; do 
-                    #<file 2> \
+	for file in etc/X11/xorg.conf \
+                    etc/sddm.conf; do
                     #<file 3> \
                     #<file 4>; do
             if ! dpkg-divert --list | grep -F "${file}"; then
