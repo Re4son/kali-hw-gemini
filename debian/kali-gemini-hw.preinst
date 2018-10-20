@@ -23,7 +23,8 @@ case "$1" in
 		    etc/skel/.config/kwinrc \
 		    etc/skel/.gtkrc-2.0 \
 		    etc/skel/.config/gtk-3.0/settings.ini \
-		    etc/skel/.config/lxqt/lxqt-powermanagement.conf; do
+		    etc/skel/.config/lxqt/lxqt-powermanagement.conf \
+		    etc/skel/.config/lxqt/lxqt.conf; do
                     #<file 4>; do
             if ! dpkg-divert --list | grep -F "${file}"; then
                 dpkg-divert --package kali-gemini-hw --add --divert $file.original --rename $file
