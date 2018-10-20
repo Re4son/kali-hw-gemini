@@ -32,8 +32,8 @@ case "$1" in
 			    etc/skel/.config/lxqt/lxqt-powermanagement.conf \
 			    etc/skel/.config/lxqt/lxqt.conf \
 			    etc/skel/.config/lxqt/session.conf \
-			    etc/ssh/sshd_config; do
-                            #<file 4>; do
+			    etc/ssh/sshd_config \
+                            etc/systemd/journald.conf.d/journald-geminipda.conf; do
                     rm -f $file		
                     if dpkg-divert --list | grep -F "${file}"; then
                         dpkg-divert --package kali-gemini-hw --remove --divert $file.original --rename $file

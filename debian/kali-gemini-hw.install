@@ -18,3 +18,4 @@ etc/skel/.config/lxqt/lxqt-powermanagement.conf etc/skel/.config/lxqt/
 etc/skel/.config/lxqt/lxqt.conf etc/skel/.config/lxqt/
 etc/skel/.config/lxqt/session.conf etc/skel/.config/lxqt/
 etc/ssh/sshd_config etc/ssh/
+etc/systemd/journald.conf.d/journald-geminipda.conf etc/systemd/journald.conf.d/
