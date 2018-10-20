@@ -7,4 +7,6 @@ etc/network/interfaces.d/eth0 etc/network/interfaces.d/
 etc/profile.d/hidpi.sh etc/profile.d/
 etc/sddm.conf.d/hidpi.conf etc/sddm.conf.d/
 etc/profile.d/libhybris-egl-x11.sh etc/profile.d/
+etc/pulse/arm_droid_card_custom.pa etc/pulse/
+etc/pulse/default.pa etc/pulse/
 

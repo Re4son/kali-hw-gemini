@@ -17,7 +17,9 @@ case "$1" in
     install)
 	for file in etc/X11/xorg.conf \
                     etc/sddm.conf \
-                    etc/adduser.conf; do
+                    etc/adduser.conf \
+	            etc/pulse/arm_droid_card_custom.pa \
+		    etc/pulse/default.pa; do
                     #<file 4>; do
             if ! dpkg-divert --list | grep -F "${file}"; then
                 dpkg-divert --package kali-gemini-hw --add --divert $file.original --rename $file
