@@ -15,7 +15,7 @@ set -e
 
 case "$1" in
     install)
-	for file in #<file 1> \
+	for file in etc/X11/xorg.conf; do 
                     #<file 2> \
                     #<file 3> \
                     #<file 4>; do
