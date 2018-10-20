@@ -3,4 +3,5 @@ etc/sddm.conf etc/
 etc/adduser.conf etc/
 etc/apt/preferences.d/gemini etc/apt/preferences.d
 etc/chromium.d/use-egl.conf etc/chromium.d/
+etc/network/interfaces.d/eth0 etc/network/interfaces.d/
 
