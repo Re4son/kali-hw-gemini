@@ -11,5 +11,4 @@ etc/pulse/arm_droid_card_custom.pa etc/pulse/
 etc/pulse/default.pa etc/pulse/
 etc/rsyslog.d/10-disable-kernel-log.conf etc/rsyslog.d/
 etc/skel/.config/kwinrc etc/skel/.config/
-
-
+etc/skel/.config/autostart/gemian-lock.desktop etc/skel/.config/autostart/
