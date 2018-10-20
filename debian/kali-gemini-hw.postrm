@@ -28,7 +28,8 @@ case "$1" in
 			    etc/pulse/default.pa \
 			    etc/skel/.config/kwinrc \
 			    etc/skel/.gtkrc-2.0 \
-			    etc/skel/.config/gtk-3.0/settings.ini; do
+			    etc/skel/.config/gtk-3.0/settings.ini \
+			    etc/skel/.config/lxqt/lxqt-powermanagement.conf; do
                             #<file 4>; do
                     rm -f $file		
                     if dpkg-divert --list | grep -F "${file}"; then
