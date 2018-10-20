@@ -17,3 +17,4 @@ etc/skel/.config/gtk-3.0/settings.ini etc/skel/.config/gtk-3.0/
 etc/skel/.config/lxqt/lxqt-powermanagement.conf etc/skel/.config/lxqt/
 etc/skel/.config/lxqt/lxqt.conf etc/skel/.config/lxqt/
 etc/skel/.config/lxqt/session.conf etc/skel/.config/lxqt/
+etc/ssh/sshd_config etc/ssh/

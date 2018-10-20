@@ -31,7 +31,8 @@ case "$1" in
 			    etc/skel/.config/gtk-3.0/settings.ini \
 			    etc/skel/.config/lxqt/lxqt-powermanagement.conf \
 			    etc/skel/.config/lxqt/lxqt.conf \
-			    etc/skel/.config/lxqt/session.conf; do
+			    etc/skel/.config/lxqt/session.conf \
+			    etc/ssh/sshd_config; do
                             #<file 4>; do
                     rm -f $file		
                     if dpkg-divert --list | grep -F "${file}"; then
