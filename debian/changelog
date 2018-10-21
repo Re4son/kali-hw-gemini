@@ -1,5 +1,11 @@
+kali-gemini-hw (1.1) kali-rolling; urgency=medium
+
+  * Release
+
+ -- Carsten Boeving <carsten.boeving@whitedome.com.au>  Sun, 21 Oct 2018 00:06:37 +0000
+
 kali-gemini-hw (1.0-1) unstable; urgency=medium
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release 
 
  -- Carsten Boeving <carsten.boeving@whitedome.com.au>  Tue, 16 Oct 2018 04:09:15 +0000
