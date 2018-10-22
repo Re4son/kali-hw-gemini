@@ -1,3 +1,9 @@
+kali-gemini-hw (1.2) kali-rolling; urgency=medium
+
+  * Fix diversions
+
+ -- Carsten Boeving <carsten.boeving@whitedome.com.au>  Mon, 22 Oct 2018 21:20:17 +1100
+
 kali-gemini-hw (1.1) kali-rolling; urgency=medium
 
   * Release
