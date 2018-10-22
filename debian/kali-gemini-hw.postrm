@@ -21,19 +21,19 @@ set -e
 
 case "$1" in
 	    remove)
-	        for file in etc/X11/xorg.conf \
-                            etc/sddm.conf \
-                            etc/adduser.conf \
-			    etc/pulse/arm_droid_card_custom.pa \
-			    etc/pulse/default.pa \
-			    etc/skel/.config/kwinrc \
-			    etc/skel/.gtkrc-2.0 \
-			    etc/skel/.config/gtk-3.0/settings.ini \
-			    etc/skel/.config/lxqt/lxqt-powermanagement.conf \
-			    etc/skel/.config/lxqt/lxqt.conf \
-			    etc/skel/.config/lxqt/session.conf \
-			    etc/ssh/sshd_config \
-                            etc/systemd/journald.conf.d/journald-geminipda.conf; do
+	        for file in /etc/X11/xorg.conf \
+                            /etc/sddm.conf \
+                            /etc/adduser.conf \
+			    /etc/pulse/arm_droid_card_custom.pa \
+			    /etc/pulse/default.pa \
+			    /etc/skel/.config/kwinrc \
+			    /etc/skel/.gtkrc-2.0 \
+			    /etc/skel/.config/gtk-3.0/settings.ini \
+			    /etc/skel/.config/lxqt/lxqt-powermanagement.conf \
+			    /etc/skel/.config/lxqt/lxqt.conf \
+			    /etc/skel/.config/lxqt/session.conf \
+			    /etc/ssh/sshd_config \
+                            /etc/systemd/journald.conf.d/journald-geminipda.conf; do
                     rm -f $file		
                     if dpkg-divert --list | grep -F "${file}"; then
                         dpkg-divert --package kali-gemini-hw --remove --divert $file.original --rename $file
