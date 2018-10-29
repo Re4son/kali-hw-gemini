@@ -1,3 +1,9 @@
+kali-gemini-hw (1.5) kali-rolling; urgency=medium
+
+  * Fix pcmanfm-qt settings
+
+ -- Carsten Boeving <carsten.boeving@whitedome.com.au>  Mon, 29 Oct 2018 20:56:57 +1100
+
 kali-gemini-hw (1.4) kali-rolling; urgency=medium
 
   * Release 1.4 for kali 2018.4
