@@ -17,7 +17,7 @@ etc/skel/.config/gtk-3.0/settings.ini etc/skel/.config/gtk-3.0/
 etc/skel/.config/lxqt/lxqt-powermanagement.conf etc/skel/.config/lxqt/
 etc/skel/.config/lxqt/lxqt.conf etc/skel/.config/lxqt/
 etc/skel/.config/lxqt/session.conf etc/skel/.config/lxqt/
-etc/skel/.config/pcmanfm-qt/lxqt/settings.conf usr/share/kali-gemini-hw/kali-theme/wallpaper/contents/images/
+etc/skel/.config/pcmanfm-qt/lxqt/settings.conf etc/skel/.config/pcmanfm-qt/lxqt/
 etc/ssh/sshd_config etc/ssh/
 etc/systemd/journald.conf.d/journald-geminipda.conf etc/systemd/journald.conf.d/
 usr/share/kali-gemini-hw/kali-theme/wallpaper/contents/images/2560x1080.png usr/share/kali-gemini-hw/kali-theme/wallpaper/contents/images/
