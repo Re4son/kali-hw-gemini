@@ -10,7 +10,7 @@ etc/pulse/arm_droid_card_custom.pa etc/pulse/
 etc/pulse/default.pa etc/pulse/
 etc/rsyslog.d/10-disable-kernel-log.conf etc/rsyslog.d/
 etc/skel/.config/kwinrc etc/skel/.config/
-etc/skel/.config/autostart/gemian-lock.desktop etc/skel/.config/autostart/
+etc/xdg/autostart/gemian-lock.desktop etc/xdg/autostart/
 etc/skel/.gtkrc-2.0 etc/skel/
 etc/skel/.config/gtk-3.0/settings.ini etc/skel/.config/gtk-3.0/
 etc/skel/.config/lxqt/lxqt-powermanagement.conf etc/skel/.config/lxqt/
