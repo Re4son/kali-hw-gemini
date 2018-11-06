@@ -7,7 +7,7 @@ Build-Depends: debhelper (>= 10)
 Standards-Version: 4.1.2
 Homepage: http://www.kali.org
 Vcs-Git: git://git.kali.org/packages/kali-hw-gemini.git
-Vcs-Browser: https://git.kali.org/gitweb/?p=kali-hw-gemini.git;a=summary
+Vcs-Browser: https://git.kali.org/gitweb/?p=packages/kali-hw-gemini.git;a=summary
 
 Package: kali-hw-gemini
 Architecture: any
