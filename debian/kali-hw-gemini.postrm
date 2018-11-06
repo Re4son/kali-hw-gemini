@@ -32,7 +32,6 @@ case "$1" in
 			    /etc/skel/.config/lxqt/lxqt.conf \
 			    /etc/skel/.config/lxqt/session.conf \
 			    /etc/skel/.config/pcmanfm-qt/lxqt/settings.conf \
-			    /etc/ssh/sshd_config \
                             /etc/systemd/journald.conf.d/journald-geminipda.conf; do
                     rm -f $file		
                     if dpkg-divert --list | grep -F "${file}"; then
