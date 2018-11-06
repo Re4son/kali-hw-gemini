@@ -12,6 +12,6 @@ Vcs-Browser: https://git.kali.org/gitweb/?p=kali-hw-gemini.git;a=summary
 Package: kali-hw-gemini
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Kali settings for the Gemini 
+Description: Kali settings for the Gemini PDA
  This package implements various settings to optimize Kali for
  the Gemini PDA hardware by Planet Computers.
