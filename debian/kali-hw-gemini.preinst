@@ -16,7 +16,6 @@ set -e
 case "$1" in
     install)
 	for file in /etc/X11/xorg.conf \
-                    /etc/sddm.conf \
                     /etc/adduser.conf \
 	            /etc/pulse/arm_droid_card_custom.pa \
 		    /etc/pulse/default.pa \
