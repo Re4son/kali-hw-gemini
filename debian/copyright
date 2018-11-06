@@ -1,6 +1,5 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: kali-gemini-hw
-Source: Source: http://www.kali.org
+Upstream-Name: kali-hw-gemini
 
 Files: *
 Copyright: 2018 Kali-Linux <www.kali.org>

@@ -30,7 +30,7 @@ case "$1" in
 		    /etc/ssh/sshd_config \
                     /etc/systemd/journald.conf.d/journald-geminipda.conf; do
             if ! dpkg-divert --list | grep -F "${file}"; then
-                dpkg-divert --package kali-gemini-hw --add --divert $file.original --rename $file
+                dpkg-divert --package kali-hw-gemini --add --divert $file.original --rename $file
             fi
         done
     ;;

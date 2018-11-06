@@ -1,34 +1,34 @@
-kali-gemini-hw (1.5) kali-rolling; urgency=medium
+kali-hw-gemini (1.5) kali-rolling; urgency=medium
 
   * Fix pcmanfm-qt settings
 
  -- Carsten Boeving <carsten.boeving@whitedome.com.au>  Mon, 29 Oct 2018 20:56:57 +1100
 
-kali-gemini-hw (1.4) kali-rolling; urgency=medium
+kali-hw-gemini (1.4) kali-rolling; urgency=medium
 
   * Release 1.4 for kali 2018.4
 
  -- Carsten Boeving <carsten.boeving@whitedome.com.au>  Mon, 29 Oct 2018 18:02:31 +1100
 
-kali-gemini-hw (1.3) kali-rolling; urgency=medium
+kali-hw-gemini (1.3) kali-rolling; urgency=medium
 
   * Fix xorg.conf, sshd_config & add wallpaper
 
  -- Carsten Boeving <carsten.boeving@whitedome.com.au>  Mon, 29 Oct 2018 17:39:55 +1100
 
-kali-gemini-hw (1.2) kali-rolling; urgency=medium
+kali-hw-gemini (1.2) kali-rolling; urgency=medium
 
   * Fix diversions
 
  -- Carsten Boeving <carsten.boeving@whitedome.com.au>  Mon, 22 Oct 2018 21:20:17 +1100
 
-kali-gemini-hw (1.1) kali-rolling; urgency=medium
+kali-hw-gemini (1.1) kali-rolling; urgency=medium
 
   * Release
 
  -- Carsten Boeving <carsten.boeving@whitedome.com.au>  Sun, 21 Oct 2018 00:06:37 +0000
 
-kali-gemini-hw (1.0-1) unstable; urgency=medium
+kali-hw-gemini (1.0-1) unstable; urgency=medium
 
   * Initial release 
 

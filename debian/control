@@ -1,4 +1,4 @@
-Source: kali-gemini-hw
+Source: kali-hw-gemini
 Section: utils
 Priority: optional
 Maintainer: Casten Boeving <carsten.boeving@whitedome.com.au>
@@ -6,10 +6,10 @@ Uploaders: Raphaël Hertzog <hertzog@debian.org>
 Build-Depends: debhelper (>= 10)
 Standards-Version: 4.1.2
 Homepage: http://www.kali.org
-Vcs-Git: git://git.kali.org/packages/kali-gemini-hw.git
-Vcs-Browser: http://git.kali.org/gitweb/?p=kali-gemini-hw.git;a=summary
+Vcs-Git: git://git.kali.org/packages/kali-hw-gemini.git
+Vcs-Browser: https://git.kali.org/gitweb/?p=kali-hw-gemini.git;a=summary
 
-Package: kali-gemini-hw
+Package: kali-hw-gemini
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Kali settings for the Gemini 
