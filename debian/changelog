@@ -1,3 +1,19 @@
+kali-hw-gemini (2.0) kali-rolling; urgency=medium
+
+  * Rename package to kali-hw-gemini
+  * Switch to native source package as there are no real upstream
+    sources
+  * Simplify copyright file
+  * Drop useless stuff and minor improvements
+  * Update path in lxqt settings file
+  * Fix Vcs-Browser field
+  * Move sddm settings to sddm.conf.d
+  * Move autostart files to /etc/xdg/autostart
+  * Change architecture to _all_
+  * Remove etc/ssh/sshd_config
+
+ -- Carsten Boeving <carsten.boeving@whitedome.com.au>  Wed, 07 Nov 2018 17:31:48 +1100
+
 kali-hw-gemini (1.5) kali-rolling; urgency=medium
 
   * Fix pcmanfm-qt settings
