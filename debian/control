@@ -1,5 +1,5 @@
 Source: kali-hw-gemini
-Section: utils
+Section: misc
 Priority: optional
 Maintainer: Casten Boeving <carsten.boeving@whitedome.com.au>
 Uploaders: Raphaël Hertzog <hertzog@debian.org>
