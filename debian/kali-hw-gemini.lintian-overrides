@@ -1,0 +1,7 @@
+# Yes, we really want those files
+package-installs-apt-preferences etc/apt/preferences.d/gemini
+package-contains-file-in-etc-skel *
+# Those are not real executable scripts
+script-not-executable etc/pulse/default.pa
+unusual-interpreter etc/pulse/default.pa #!/usr/bin/pulseaudio
+
