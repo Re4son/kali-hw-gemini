@@ -1,4 +1,4 @@
-kali-hw-gemini (2.0) kali-rolling; urgency=medium
+kali-hw-gemini (2.0) kali-dev; urgency=medium
 
   * Rename package to kali-hw-gemini
   * Switch to native source package as there are no real upstream
